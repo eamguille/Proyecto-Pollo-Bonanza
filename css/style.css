@@ -26,10 +26,8 @@ header {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-header nav {
-    margin-bottom: 2.5em;
+    margin-bottom: 8rem;
+    height: 100vh;
 }
 
 header nav .container {
@@ -76,21 +74,24 @@ header nav ul .galeria-icon a i:hover {
 
 .header-content-container {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 3rem;
 }
 
 .header-content-container .f-section {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    width: 50%;
+    align-items: end;
+    justify-content: left;
+    width: 40%;
+    margin-top: 4rem;
 }
 
 .header-content-container .f-section div:nth-child(1) {
     width: 450px;
     text-align: center;
-    margin-bottom: -200px;
 }
 
 .header-content-container .f-section div:nth-child(1) h2 {
@@ -124,12 +125,67 @@ header nav ul .galeria-icon a i:hover {
 }
 
 .header-content-container .s-section {
+    display: flex;
+    align-items: center;
+    justify-content: right;
     padding: 12px;
+    width: 50%;
 }
 
 .header-content-container .s-section div {
-    width: 500px;
-    height: 500px;
-    background: #666;
-    border-radius: 50%;
+    background: transparent;
+}
+
+.header-content-container .s-section div img {
+    width: 35em;
+    height: auto;
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.5));
+}
+
+/* ::::::: FIRST SECTION :::::::: */
+.container-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    margin-bottom: 5rem;
+}
+
+.container-section .banner-img, .banner-img1, .banner-img2 {
+    padding: 1rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    color: #fff;
+    margin: .3rem;
+}
+
+.container-section .banner-img h2, .banner-img1 h2, .banner-img2 h2 {
+    font-family: 'Bebas Neue',sans-serif;
+}
+
+.container-section .banner-img h2:nth-child(1), .banner-img1 h2:nth-child(1), .banner-img2 h2:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.banner-img {
+    background-image: url('../src/imgs/chicken1.jpg');
+    width: 45%;
+    height: 422px;
+}
+
+.container-section .bannerimg {
+    width: 45%;
+}
+
+.banner-img1 {
+    background-image: url('../src/imgs/chicken2.jpg');
+    height: 210px;
+}
+
+.banner-img2 {
+    background-image: url('../src/imgs/chicken3.jpg');
+    height: 210px;
 }
