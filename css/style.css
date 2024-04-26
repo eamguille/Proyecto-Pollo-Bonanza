@@ -30,44 +30,44 @@ header {
     height: 100vh;
 }
 
-header nav .container {
+nav .container {
     display: flex;
     justify-content: space-around;
 }
 
-header nav ul {
+nav ul {
     display: flex;
     list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
     padding: 0 30px;
 }
 
-header nav ul li a{
+nav ul li a{
     text-decoration: none;
     color: #42200b;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
     color: #e11c1c;
     transition: .5s;
 }
 
-header nav ul .dropdown a:hover {
+nav ul .dropdown a:hover {
     color: #e11c1c;
 }
 
-header nav ul .dropdown ul li a {
+nav ul .dropdown ul li a {
     font-size: 15px;
     color: #222;
 }
 
-header nav ul .galeria-icon a i {
+nav ul .galeria-icon a i {
     font-size: 30px;
 }
 
-header nav ul .galeria-icon a i:hover {
+nav ul .galeria-icon a i:hover {
     color: #e11c1c;
     transition: .5s;
 }
