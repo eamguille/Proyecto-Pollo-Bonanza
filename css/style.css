@@ -352,8 +352,7 @@ footer {
 
 .first-footer-section img {
     width: 200px;
-    height: 80px;
-    object-fit: cover;
+    height: auto;
     margin-bottom: 2rem;
 }
 
