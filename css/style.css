@@ -77,7 +77,7 @@ nav ul .galeria-icon a i:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .header-content-container .f-section {
@@ -139,7 +139,7 @@ nav ul .galeria-icon a i:hover {
 .header-content-container .s-section div img {
     width: 35em;
     height: auto;
-    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(2px 2px 20px rgba(0, 0, 0, 0.5));
 }
 
 /* ::::::: FIRST SECTION :::::::: */
