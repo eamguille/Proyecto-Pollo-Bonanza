@@ -189,3 +189,40 @@ header nav ul .galeria-icon a i:hover {
     background-image: url('../src/imgs/chicken3.jpg');
     height: 210px;
 }
+
+
+.header-content-container .contact-sectionleft {
+    display: flex;
+    align-items: Left;
+    justify-content: right;
+    padding: 12px;
+    width: 40%;
+}
+
+.header-content-container .contact-sectionleft div {
+    background: transparent;
+}
+
+.header-content-container .Contact-sectionleft div img {
+    width: 30em;
+    height: auto;
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.5));
+}
+
+.header-content-container .contact-sectionright {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding: 12px;
+    width: 40%;
+}
+
+.header-content-container .contact-sectionright div {
+    background: transparent;
+}
+
+.header-content-container .Contact-sectionright div img {
+    width: 30em;
+    height: auto;
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.5));
+}
