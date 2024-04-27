@@ -1,0 +1,132 @@
+:root {
+    --color1: #c9c9c9;
+    --textcolor: #111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: none;
+    margin-bottom: 2.5rem;
+    height: auto;
+}
+
+nav {
+    padding: 0;
+    margin-bottom: 2rem;
+    height: 90px;
+    margin-bottom: 0;
+}
+
+nav .container a img {
+    padding: 0;
+}
+
+nav .container ul {
+    margin-bottom: 0
+}
+
+header section {
+    background-image: url('../src/imgs/footer-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content-container {
+    text-align: center;
+    margin-top: 0;
+    height: 65vh;
+    padding: 0;
+    align-content: center;
+    margin-bottom: 0;
+}
+
+.header-content-container h1, p {
+    padding: 0;
+    margin: 0;
+    color: #f1f1f1;
+    width: 75%;
+}
+
+.header-content-container p {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 10px
+}
+
+.contact-container {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-top: 0;
+}
+
+.contact-container .form-wrapper {
+    width: 50%;
+}
+
+.contact-container .media-wrapper {
+    width: 30%;
+}
+
+.form-wrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form label, form input, form input::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px !important;
+    color: var(--textcolor);
+}
+
+form label, form input {
+    margin: .5rem 0;
+}
+
+form button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2rem;
+}
+
+
+.media-wrapper {
+    margin: 5px 0 0 5rem;
+}
+
+.media-wrapper i, .media-wrapper span {
+    font-size: 25px;
+    color: var(--textcolor);
+}
+
+.media-wrapper span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-left: .2rem
+}
+
+.media-wrapper .socialNetworks a i:nth-child(1) {
+    margin-left: 0;
+}
+
+.media-wrapper .socialNetworks a i {
+    color: var(--textcolor);
+    margin: 2.5rem 30px;
+}
+
+.media-wrapper .socialNetworks a i:hover {
+    color: #ffc135;
+    transition: .5s;
+}
+
+.media-wrapper .address, .media-wrapper .email, .media-wrapper .phone {
+    margin-bottom: 2rem
+}
+
+body section:nth-child(2) {
+    margin-bottom: 2.5rem
+}

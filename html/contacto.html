@@ -8,18 +8,19 @@
 
     <script src="https://kit.fontawesome.com/4354ca4a35.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contacto.css">
   </head>
   <body>
 
     <header>
         <nav class="navbar bg-body-transparent">
             <div class="container">
-              <a class="navbar-brand" href="./index.html"><img class="logo-img" src="./src/icons/logo.svg" alt=""></a>
+              <a class="navbar-brand" href="../index.html"><img class="logo-img" src="../src/icons/logo.svg" alt=""></a>
                 <ul>
-                    <li><a href="./html/creadores.html">Creadores</a></li>
-                    <li><a href="contacto.html">Contactanos</a></li>
-                    <li><a href="acercade.html">Acerca de nosotros</a></li>
+                    <li><a href="./creadores.html">Creadores</a></li>
+                    <li><a href="./contacto.html">Contactanos</a></li>
+                    <li><a href="./acercade.html">Acerca de nosotros</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Idioma
@@ -30,62 +31,62 @@
                             <li><a class="dropdown-item" href="#">Portugues (BRZ)</a></li>
                           </ul>
                     </li>
-                    <li title="Galeria de imagenes" class="galeria-icon"><a href="./html/galeria.html"><i class="fa-regular fa-images"></i></a></li>
+                    <li title="Galeria de imagenes" class="galeria-icon"><a href="../html/galeria.html"><i class="fa-regular fa-images"></i></a></li>
                 </ul>
             </div>
           </nav>
 
           <section>
             <div class="header-content-container">
-              <div class="f-section">
-                <div>
-                    <h1>
-                      Contacto <span>
-                    </h1>
-                  </div>
-                <div>
-                  <h2>
-                    <A>¿Quieres contactarnos? te decimos como:</A>
-                  </h2>
-            
-            
-              </div>
-
-              
-              <div class="contact-sectionleft">
-                <a >  <i class="fa-solid fa-mobile"></i> 77575958</li></a>
-                
-
-
-              </div>
-             
-              <div class="contact-sectionleft">
-               <a href="https://www.facebook.com/PolloBonanzaOficial/"><i class="fa-brands fa-square-facebook"></i>  Pollo Bonanza oficial</a>
-
-
-              </div>
-              <br>
-              <div class="contact-sectionleft">
-              <a href="https://www.instagram.com/pollobonanzaoficial/?hl=es"><i class="fa-brands fa-square-instagram"></i> Pollo Bonanza oficial</a>
-
-
-              </div>
-              <br>
-              <div class="contact-sectionleft">
-                <a href="https://www.google.com/maps/place/Pollo+Bonanza/@13.6993046,-89.1955871,17z/data=!3m1!4b1!4m6!3m5!1s0x8f6330ec1801d1c3:0xf065b49a9be6f64d!8m2!3d13.6993046!4d-89.1955871!16s%2Fg%2F113k5bjqw?entry=ttu"><i class="fa-brands fa-square-instagram"></i> Nuestra ubicacion</a>
-
-
-              </div>
-          
-              <br>
-            </ul>
-
+              <h1>Contactanos</h1>
+              <p>
+                Apreciamos escuchar tu opinion sobre nosotros, con el fin de mejorar como empresa para con los cliente en todos los aspectos posibles para la satisfaccion de ustedes !!
+              </p>
+            </div>
           </section>
     </header>
 
-   
+   <section>
+    <div class="contact-container container">
+      <div class="form-wrapper">
+        <form role="form">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" class="form-control" id="name" autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="email">Contraseña</label>
+            <input type="email" class="form-control" id="email" autocomplete="off">
+          </div>
+          <div class="checkbox">
+            <label for="msg">Mensaje</label>
+            <textarea class="form-control" id="msj" rows="4" autocomplete="off"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
 
-
+      <div class="media-wrapper">
+        <div class="socialNetworks">
+          <a href="./contacto.html"><i class="fa-brands fa-instagram"></i></a>
+          <a href="./contacto.html"><i class="fa-brands fa-facebook"></i></a>
+          <a href="./contacto.html"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="address">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Bo Distrito Comercial Central Cl Arce No 525, San Salvador El Salvador</span>
+        </div>
+        <div class="email">
+          <i class="fa-solid fa-envelope"></i>
+          <span>polloBonanza@bonanza.com</span>
+        </div>
+        <div class="phone">
+          <i class="fa-solid fa-phone"></i>
+          <span> +(503) 2000-1001</span>
+        </div>
+      </div>
+    </div>
+   </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
