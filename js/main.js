@@ -29,3 +29,28 @@ ScrollReveal().reveal(".cards-container .row .col", {
 ScrollReveal().reveal(".events-container", {
     duration: 1000,
 })
+
+ScrollReveal().reveal(".conocenos-container h3", {
+    ...scrollRevealOption,
+    origin: "right",
+})
+
+ScrollReveal().reveal(".conocenos-container h3:nth-child(2)", {
+    ...scrollRevealOption,
+    origin: "left",
+})
+
+ScrollReveal().reveal(".conocenos-container div", {
+    ...scrollRevealOption,
+    origin: "bottom",
+})
+
+ScrollReveal().reveal(".col-md-4 .card", {
+    ...scrollRevealOption,
+    interval: 500,
+})
+
+ScrollReveal().reveal(".container .box", {
+    ...scrollRevealOption,
+    interval: 200,
+})

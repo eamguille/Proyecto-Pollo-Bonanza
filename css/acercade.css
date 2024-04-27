@@ -1,0 +1,38 @@
+
+:root {
+    --bg-color: #ffc135;
+}
+
+nav {
+    margin-bottom: 5rem;
+}
+
+.conocenos-container {
+    text-align: center;
+}
+
+.conocenos-container h2 {
+    background: var(--bg-color);
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 2.5rem;
+}
+
+.conocenos-container h3 {
+    font-size: 80px;
+    text-shadow: 3px 3px 2px var(--bg-color);
+    margin-bottom: 1.5rem;
+}
+
+.conocenos-container div {
+    margin: auto;
+    width: 65%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2.5rem;
+}
+
+form label, form button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: .5rem 0;
+}
+
