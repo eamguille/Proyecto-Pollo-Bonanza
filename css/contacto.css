@@ -170,3 +170,28 @@ footer img {
     width: 85%;
     margin: auto;
 }
+
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 468px) {
+    .contact-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-container .form-wrapper, .contact-container .media-wrapper {
+        width: 100%;
+    }
+
+    .contact-container .media-wrapper {
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    .socialNetworks {
+        margin-left: 30px;
+    }
+
+}
